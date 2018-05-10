@@ -36,8 +36,10 @@ import io.netty.util.CharsetUtil;
 
 public class ServerHandler extends ChannelInboundHandlerAdapter {
 
-	private static final String WAV_PATH = "/Users/yinxiong/PycharmProjects/tuti-ml/data/wav/";
-	private static final String MIDI_PATH = "/Users/yinxiong/PycharmProjects/tuti-ml/midi/";
+//	private static final String WAV_PATH = "/Users/yinxiong/PycharmProjects/tuti-ml/data/wav/";
+//	private static final String MIDI_PATH = "/Users/yinxiong/PycharmProjects/tuti-ml/midi/";
+	private static final String WAV_PATH = "/home/miaopeng/wav/";
+	private static final String MIDI_PATH = "/home/miaopeng/midi/";
 
 	/**
 	 * 客户端与服务端创建连接的时候调用
