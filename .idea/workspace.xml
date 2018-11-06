@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ai_server:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7fc05c47-218a-43fc-91d0-7ed93bbf2ab8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jai_codec_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jai_core_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jai_imageio.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/test.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jai-codec-1.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jai_core-1.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jai_imageio.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tuti/ai/netty/Image2Tif.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/tuti/ai/netty/AIHttpServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/tuti/ai/netty/AIHttpServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/tuti/ai/netty/Client$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/tuti/ai/netty/Client$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/tuti/ai/netty/Client$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/tuti/ai/netty/Client$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/tuti/ai/netty/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/tuti/ai/netty/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/tuti/ai/netty/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/tuti/ai/netty/ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/tuti/ai/netty/ClientStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/tuti/ai/netty/ClientStart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/tuti/ai/netty/MessageDecoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/tuti/ai/netty/MessageDecoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/tuti/ai/netty/MessageEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/tuti/ai/netty/MessageEncoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/tuti/ai/netty/NettyConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/tuti/ai/netty/NettyConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/tuti/ai/netty/ProcessActor.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/tuti/ai/netty/ProcessActor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/tuti/ai/netty/RealtimeProcess$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/tuti/ai/netty/RealtimeProcess$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/tuti/ai/netty/RealtimeProcess.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/tuti/ai/netty/RealtimeProcess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/tuti/ai/netty/RealtimeProcessCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/tuti/ai/netty/RealtimeProcessCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/tuti/ai/netty/RealtimeProcessInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/tuti/ai/netty/RealtimeProcessInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/tuti/ai/netty/RequestInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/tuti/ai/netty/RequestInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/tuti/ai/netty/Server$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/tuti/ai/netty/Server$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/tuti/ai/netty/Server$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/tuti/ai/netty/Server$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/tuti/ai/netty/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/tuti/ai/netty/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/tuti/ai/netty/ServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/tuti/ai/netty/ServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/tuti/ai/netty/ServerStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/tuti/ai/netty/ServerStart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tuti/ai/netty/ClientStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tuti/ai/netty/ClientStart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tuti/ai/netty/ServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tuti/ai/netty/ServerHandler.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/bin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="86918245">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.6" value="7" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="5" />
+          <entry key="classpath" value="1" />
+          <entry key="gitignore" value="1" />
+          <entry key="java" value="13" />
+          <entry key="project" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="5" />
+          <entry key="Eclipse" value="2" />
+          <entry key="JAVA" value="13" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="962" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="962" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/tuti/ai/netty/ServerHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="351" column="26" selection-start-line="351" selection-start-column="26" selection-end-line="351" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tuti/ai/netty/ClientStart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tuti/ai/netty/ServerStart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>time</find>
+      <find>SimpleChannelInboundHandler</find>
+      <find>addLast</find>
+      <find>predictMidi</find>
+      <find>wav_url</find>
+      <find>dele</find>
+      <find>png</find>
+      <find>downOssFile</find>
+      <find>getBytes</find>
+      <find>time1:</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/tuti/ai/netty/Server.java" />
+        <option value="$PROJECT_DIR$/src/com/tuti/ai/netty/Image2Tif.java" />
+        <option value="$PROJECT_DIR$/src/com/tuti/ai/netty/ClientStart.java" />
+        <option value="$PROJECT_DIR$/src/com/tuti/ai/netty/ServerHandler.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="34" />
+    <option name="y" value="23" />
+    <option name="width" value="2322" />
+    <option name="height" value="1295" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ai_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ai_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ai_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="template.copyright.formatting" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/file" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ClientStart">
+    <configuration name="ClientStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tuti.ai.netty.ClientStart" />
+      <module name="ai_server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tuti.ai.netty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tuti.ai.netty.ServerHandler" />
+      <module name="ai_server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tuti.ai.netty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tuti.ai.netty.ServerStart" />
+      <module name="ai_server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tuti.ai.netty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ServerStart" />
+      <item itemvalue="Application.ServerHandler" />
+      <item itemvalue="Application.ClientStart" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ClientStart" />
+        <item itemvalue="Application.ServerStart" />
+        <item itemvalue="Application.ServerHandler" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7fc05c47-218a-43fc-91d0-7ed93bbf2ab8" name="Default Changelist" comment="" />
+      <created>1535364101561</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535364101561</updated>
+      <workItem from="1535364104024" duration="2604000" />
+      <workItem from="1535428419477" duration="8034000" />
+      <workItem from="1539922560402" duration="8905000" />
+      <workItem from="1540193722563" duration="7321000" />
+      <workItem from="1540276529120" duration="4533000" />
+      <workItem from="1540460843454" duration="2815000" />
+      <workItem from="1540522733513" duration="4003000" />
+      <workItem from="1540538995090" duration="4528000" />
+      <workItem from="1540781299729" duration="1703000" />
+      <workItem from="1540798669684" duration="5903000" />
+      <workItem from="1540870037016" duration="37614000" />
+      <workItem from="1541154155492" duration="9240000" />
+      <workItem from="1541489527278" duration="773000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="97976000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="34" y="23" width="2322" height="1295" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1995614" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21612635" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39983374" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299725" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32917705" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3299725" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.3283458" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/tuti/ai/netty/AIHttpServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1628">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/netty-all-4.0.56.Final.jar!/io/netty/handler/codec/http/HttpResponseEncoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/httpcore-4.4.1.jar!/org/apache/http/params/CoreConnectionPNames.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuti/ai/netty/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="41" column="70" lean-forward="true" selection-start-line="41" selection-start-column="70" selection-end-line="41" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jai_imageio.jar!/com/sun/media/imageio/plugins/tiff/TIFFField.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="179" column="20" lean-forward="true" selection-start-line="179" selection-start-column="20" selection-end-line="179" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jai-codec-1.1.3.jar!/com/sun/media/jai/codec/TIFFField.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/awt/event/KeyEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="390" column="34" selection-start-line="390" selection-start-column="28" selection-end-line="390" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuti/ai/netty/Image2Tif.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="781">
+          <caret line="66" column="43" lean-forward="true" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuti/ai/netty/ServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="351" column="26" selection-start-line="351" selection-start-column="26" selection-end-line="351" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuti/ai/netty/ClientStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuti/ai/netty/ServerStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ai_server:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ai_server</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jai-codec-1.1.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,10 +1,5 @@
 package com.tuti.ai.netty;
 
-import java.io.BufferedOutputStream;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-
 import org.apache.http.Header;
 import org.apache.http.HttpStatus;
 import org.apache.http.client.HttpClient;
@@ -13,6 +8,13 @@ import org.apache.http.entity.ByteArrayEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.params.CoreConnectionPNames;
 import org.apache.http.util.EntityUtils;
+
+import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.FileInputStream;
 
 public class ClientStart {
 	public static void main(String[] args) {
@@ -28,19 +30,30 @@ public class ClientStart {
 		// bootstrap.sendMessage(req);
 		// }
 
-		byte[] info = "wav_url=http://yinxiong1.oss-cn-hangzhou.aliyuncs.com/1787_1524898090996.wav".getBytes();
-		//
-		// byte[] data = new byte[1+info.length];
-		// for(int i = 0;i<data.length;i++){
-		// if(i==0){
-		// data[i] = (byte)1;
-		// }else{
-		// data[i] = info[i-1];
-		// }
-		//
-		// }
-		//
-		httpPostWithJson("http://75.40.17.180:8080", info);
+//		byte[] info = "wav_url=http://yinxiong1.oss-cn-hangzhou.aliyuncs.com/4337_1535366566704.wav".getBytes();
+		byte[] info = "wav_url=http://yinxiong1.oss-cn-hangzhou.aliyuncs.com/3334_1526427435107.wav".getBytes();
+
+//		byte[] info = "pic_url=https://yinxiong1.oss-cn-hangzhou.aliyuncs.com/2_1.jpg".getBytes();
+
+
+		System.out.println("info:"+info);
+		long t1 = System.currentTimeMillis();
+//		httpPostWithJson("http://127.0.0.1:8080", info);
+		httpPostWithJson("https://f8c13872.ngrok.io", info);
+		System.out.println("time:"+(System.currentTimeMillis()-t1));
+
+//		try {
+//			File wav = new File("src/test.wav");
+//			InputStream input = new FileInputStream(wav);
+//			byte[] byt = new byte[input.available()];
+//			input.read(byt);
+//
+//			httpPostWithJson("http://75.40.17.180:8080", byt);
+//
+//		}catch (Exception e){
+//
+//		}
+
 	}
 
 	public static boolean httpPostWithJson(String url, byte[] bytes) {
